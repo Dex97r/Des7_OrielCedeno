@@ -1,0 +1,3 @@
+Este mensaje de error indica que se esta intentando crear una clase llamada ClaseHijo 
+que hereda de una clase llamada ClaseBase, 
+pero la clase ClaseBase se ha definido como una clase final.
