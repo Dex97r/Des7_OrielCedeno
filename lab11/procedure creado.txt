@@ -1,0 +1,7 @@
+CREATE PROCEDURE sp_listar_noticias_paginacion(
+    IN p_limit INT,
+    IN p_offset INT
+)
+BEGIN
+    SELECT * FROM noticias LIMIT p_limit OFFSET p_offset;
+END
