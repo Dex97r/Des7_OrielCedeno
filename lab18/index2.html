@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>El atributo Pattern en el tipo Input</h1>
+        <p>Un formulario con un campo de correo electronico que debe estar en el siguiente orden:
+            caracteres@caracteres.dominio (caracteres seguidos de un signo @, seguidos de mas caracteres y luego un ".".)
+            Despues del signo "." agregue al menos 2 letras de la a la z:
+        </p>
+        <form action="/action_page.php">
+            <label for="email">Correo electronico</label>
+            <input type="email"id="email" name="email" pattern "[a-z0-9._%+-]+@[a-z0-9._%+-]+\.[a-z]{2,}$">
+            <input type="submit">
+        </form>
+    </body>
+</html>
