@@ -1,0 +1,112 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(237, 241, 247);
+}
+
+.shadow-p{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 8px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 8px;
+    border-radius: 8px;
+}
+.card-content{
+    padding: 0.5rem;
+    border-radius: 5%;
+}
+
+.card-header{
+    text-align: center;
+    border: none;
+}
+.profile-img{
+    width: 170px !important;
+    height: 170px !important;
+    border-radius: 50%;
+    border: 1px solid #498ded;
+    
+}
+
+.title-profile{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    border-bottom: 1px solid #d3d0d0;
+}
+.personal-data{
+    padding: 1rem 1rem 0.2rem 1rem;
+}
+
+.title-profile h5{
+    flex-grow: 1;
+}
+
+.hr-profile{
+   
+    background-color: rgba(0, 0, 24, 0.24);
+    margin: 10px 0px 12px; 
+    height: 1px;
+    border: none;
+}
+
+.img-profile{
+    border-radius: 100%;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.profile-image-container {
+    
+    border-radius: 50%;
+    overflow: hidden; /* para ocultar partes de la imagen que sobrepasen el contenedor */
+  }
+
+  .change-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 1px;
+    margin: 10px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  .change-icon i {
+    color: #333;
+  }
+
+.hover i{
+    float: right;
+}
+.hover:hover {
+    background-color: #ccc;
+    color: #c12929;
+    font-weight: 600;
+}
+
+.btn-lgj{
+    border: none;
+    background-color: white;
+}
+
+
+/* ESTILOS DE LAS COMPAÑIAS */
+
+.bg-user-pic
+.bg-company-logo {
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); /* para compatibilidad con navegadores webkit */
+    background-color: rgba(255, 255, 255, 0.61); 
+    /* agrega transparencia para que el efecto sea visible */
+   
+    background-size: cover; /* ajusta el tamaño de la imagen al contenedor */
+    background-position: center; /* centra la imagen en el contenedor */
+
+}

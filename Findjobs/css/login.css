@@ -1,0 +1,13 @@
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+.row{
+    height: 100vh !important;
+}
+
+.form h1{
+    text-align: center;
+    margin-bottom: 1rem;
+}

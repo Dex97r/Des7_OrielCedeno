@@ -1,0 +1,16 @@
+.nav-link{
+  transition: transform 0.3s ease-in-out;
+}
+.nav-link:hover{
+  background-color: rgba(44, 169, 242, 0.762) !important;
+  border-radius: 5px;
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .options {
+      margin-bottom: 5px;
+      margin-top: 8px;
+    }
+  }
+  
